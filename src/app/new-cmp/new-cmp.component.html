@@ -1,0 +1,32 @@
+<!-- <p>Deepika Loves Revappa</p>
+<h4>{{newdata}}</h4>
+<div>months:
+    <select (change) = "monthschange()">
+        <option *ngFor = "let i of months">{{i}}</option>
+    </select>
+</div>
+<div>
+    <span *ngIf = "isavailable; then condition1 else condition2">condition is valid</span>
+    <ng-template #condition1>condition is valid</ng-template>
+    <ng-template #condition2>condition is invalid</ng-template>
+</div>
+<br/>
+<button type="button" (click)= "myfunction()">Click Me</button> -->
+<!-- <div>
+    <span appChangeTxt>change the text {{newdata}}</span>
+</div> -->
+<h4>{{todaydate}}</h4>
+<h4>{{newcomponentproperty}}</h4>
+<div>
+    <h4>Routing Example</h4>
+   
+    <nav>
+    <a routerLink="/home">Home</a>
+    <br/>
+    <a routerLink="/contact">Contact Us</a>
+</nav>
+</div>
+<div>  
+    <button disabled='{{isDisabled}}'>Disable Me</button>  
+                     </div>
+<router-outlet></router-outlet>

@@ -1,0 +1,21 @@
+h4{
+    color:aqua;
+    font-size: 25px;
+}
+button{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: tomato;
+    font-size: 20px;
+}
+a:link, a:visited{
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+a:hover, a:active {
+    background-color: yellow;
+}
